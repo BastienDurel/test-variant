@@ -1,3 +1,4 @@
+// -*- c++ -*-
 #if !defined __V_INC
 #define __V_INC
 

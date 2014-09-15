@@ -1,3 +1,4 @@
+// -*- c++ -*-
 #if !defined __P_INC
 #define __P_INC
 
