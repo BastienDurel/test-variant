@@ -26,6 +26,10 @@ class D {
 
   operator const char*() const { _P; return "foo"; }
 	operator double() const { _P; return 0.0; }
+
+	// new operators
+	D(const V& v) { _P; }
+	D& operator=(const V& v) { _P; return *this; }
 };
 
 #endif
