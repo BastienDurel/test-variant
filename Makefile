@@ -4,8 +4,8 @@ N=tst
 
 ifndef GCC
 CXX=clang++
-endif
 CXXFLAGS=--std=c++11
+endif
 ifdef DOERR
 CXXFLAGS+=-Derr
 endif
