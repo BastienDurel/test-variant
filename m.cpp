@@ -33,8 +33,10 @@ int main() {
 
 	std::cout << std::endl << std::endl;
 
+#if defined err
 	d1 = (D)v3;
 	d1 = v3;
+#endif
 
 	return 0;
 }
